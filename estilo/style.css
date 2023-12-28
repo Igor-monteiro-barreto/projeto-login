@@ -33,8 +33,11 @@ section#login{
     height: 400px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
 }
-section > div#imagem{
+section#login > div#imagem{
+    display: block;
     background: #5f2c82 url(../patterns.jpg) no-repeat;
     height: 150px;
     background-size: cover;
