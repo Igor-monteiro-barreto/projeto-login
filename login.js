@@ -1,0 +1,1 @@
+window.alert('arquivo não exieste por favor volte para paguina principal')
